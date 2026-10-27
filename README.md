@@ -25,7 +25,7 @@ npm install
 npm run dev
 ```
 
-Run `npm run typecheck` and `npm run build` for production verification. The separate RiskOps AI repository scaffold is under [`riskops-ai`](riskops-ai/README.md).
+Run `npm run typecheck` and `npm run build` for production verification. RiskOps AI is maintained as a separate repository at `/home/ubuntu/riskops-ai`.
 
 ## Evidence policy
 

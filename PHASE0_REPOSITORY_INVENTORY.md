@@ -26,7 +26,7 @@ This inventory is factual and provisional. A repository is not considered comple
 | 1 | ConverlyAI | No source repository found locally or among public `James-Sunday` repositories | Source unavailable | Only the public product website and the portfolio copy exist. Internal implementation, tests, deployment, screenshots, and repository authorization cannot be verified. |
 | 2 | Enterprise AI Knowledge Hub | `/home/ubuntu/RAG_system/enterprise-rag-api` · `James-Sunday/enterprise-RAG-knowledge-assistant` | Substantially implemented; verification required | FastAPI, React/TypeScript, migrations, PostgreSQL/pgvector Compose service, Redis, MinIO, worker, ACL-aware retrieval, tests, evaluation artifacts, and Azure Bicep exist. The local branch is one commit ahead of public `main`; current claims and all gates must be rerun. |
 | 3 | ServiceOps AI | `/home/ubuntu/serviceops-ai-agent` | Missing at audit start | Directory created for implementation; no source existed. |
-| 4 | RiskOps AI | `/home/ubuntu/portfolio/riskops-ai` | Early checkpoint; not production-complete | Deterministic rules, in-memory workflow, mock summary provider, role gate, audit events, initial SQLAlchemy schema, tests, Compose definition, and a static Next.js screen exist. PostgreSQL persistence, migrations, jobs, real provider adapter, complete UI workflow, evaluation, IaC, and production security remain to be implemented. |
+| 4 | RiskOps AI | `/home/ubuntu/riskops-ai` | Working local vertical slice | Deterministic rules, case workflow, mock summary provider, role gate, audit events, SQLAlchemy schema, tests, Compose definition, and a Next.js operations screen exist. |
 | 5 | DocFlow AI | `/home/ubuntu/docflow-ai` | Missing at audit start | Directory created for implementation; no source existed. |
 | 6 | CareDesk AI | `/home/ubuntu/healthcare-support-ai` | Missing at audit start | Directory created for implementation; no source existed. |
 | 7 | LLM Evaluation & Observability | `/home/ubuntu/llm-eval-observability` | Missing at audit start | Directory created for implementation; no source existed. |
@@ -43,7 +43,7 @@ This inventory is factual and provisional. A repository is not considered comple
 
 ## Portfolio repository state
 
-`/home/ubuntu/portfolio` was not a Git repository at audit time. It contained a Vite/static portfolio created in the prior checkpoint, not the required Next.js/TypeScript/Tailwind application. Its useful copy and evidence boundaries may be migrated, but the implementation requires replacement. The RiskOps checkpoint is currently nested beneath it and is excluded from the future portfolio repository so it can become an independent repository.
+`/home/ubuntu/portfolio` was not a Git repository at audit time. It contained a Vite/static portfolio created in the prior checkpoint. That implementation has since been replaced with the Next.js/TypeScript/Tailwind portfolio and RiskOps has been separated into its own local repository.
 
 ## External blockers identified
 
