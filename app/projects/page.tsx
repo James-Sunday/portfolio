@@ -1,0 +1,3 @@
+import Link from 'next/link';import {projects} from '@/lib/projects';
+export const metadata={title:'Projects'};
+export default function Projects(){return <main className="page inner"><p className="kicker">Engineering portfolio</p><h1>Production systems<br/>and working foundations.</h1><p className="intro">Eleven projects in fixed order. Status labels distinguish verified public systems from working local vertical slices and source-access limitations.</p><div className="project-index">{projects.map(project=><Link href={`/projects/${project.slug}`} key={project.slug}><span>{String(project.order).padStart(2,'0')}</span><div><small>{project.category} · {project.status}</small><h2>{project.name}</h2><p>{project.short}</p></div><b>↗</b></Link>)}</div></main>}
