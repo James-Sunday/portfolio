@@ -16,7 +16,7 @@ export default function Home(){
     <section className="home-hero">
       <div className="page home-hero-grid">
         <div className="hero-main">
-          <div className="availability"><span/>Senior AI/ML Engineer · Abuja, Nigeria</div>
+          <div className="hero-identity"><strong>James Sunday Akam</strong><div className="availability"><span/>Senior AI/ML Engineer · Abuja, Nigeria</div></div>
           <h1>Engineering AI<br/>that works <em>beyond</em><br/>the model call.</h1>
           <p>I design and build production AI systems across LLMs, retrieval, agents, backend services, evaluation, security, cloud infrastructure and reliability.</p>
           <div className="actions"><Link className="button hero-primary" href="/projects">Explore the work <span>↗</span></Link><Link className="button hero-secondary" href="/contact">Start a conversation</Link></div>
